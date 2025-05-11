@@ -17,7 +17,10 @@ class StoryListViewModel: ObservableObject {
     
     func loadStories() {
         isLoading = true
+        
+        // Используем сервис для загрузки историй
         stories = storyService.stories
+        
         isLoading = false
     }
     
@@ -31,5 +34,15 @@ class StoryListViewModel: ObservableObject {
     
     func clearProgress() {
         userProgressService.clearProgress()
+    }
+    
+    // Добавим метод для получения истории по ID
+    func getStory(withId id: String) -> Story? {
+        return storyService.getStory(withId: id)
+    }
+    
+    // Добавим метод для получения последнего слайда
+    func getLastSlideIndex() -> Int {
+        return userProgressService.getLastSlideIndex()
     }
 }

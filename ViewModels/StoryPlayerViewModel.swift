@@ -5,7 +5,7 @@ import Combine
 
 class StoryPlayerViewModel: ObservableObject {
     private let story: Story
-    private let audioService: AudioService
+    let audioService: AudioService
     private let userProgressService: UserProgressService
     private var cancellables = Set<AnyCancellable>()
     

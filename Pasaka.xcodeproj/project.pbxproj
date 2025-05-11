@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5359A82DD0C5DF00DFA931 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E34C2DCFAA17000C9C40 /* Slide.swift */; };
+		2E5359A92DD0C67800DFA931 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E34D2DCFAA3A000C9C40 /* Story.swift */; };
+		2E5359AA2DD0C67E00DFA931 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E34E2DCFAA44000C9C40 /* MockData.swift */; };
+		2E5359AB2DD0C84000DFA931 /* UserProgressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E3512DCFAC46000C9C40 /* UserProgressService.swift */; };
+		2E5359AC2DD0C84600DFA931 /* StoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E3502DCFABB8000C9C40 /* StoryService.swift */; };
+		2E5359AD2DD0C85900DFA931 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E34F2DCFAB63000C9C40 /* AudioService.swift */; };
+		2E5359AE2DD0C86F00DFA931 /* StoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E3522DCFAC99000C9C40 /* StoryListViewModel.swift */; };
+		2E5359AF2DD0C87300DFA931 /* StoryPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E3532DCFACF1000C9C40 /* StoryPlayerViewModel.swift */; };
 		2EE8E3322DCFA5E2000C9C40 /* PasakaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E3312DCFA5E2000C9C40 /* PasakaApp.swift */; };
 		2EE8E3672DCFAFAA000C9C40 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8E3662DCFAFA7000C9C40 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
@@ -236,7 +244,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE8E3322DCFA5E2000C9C40 /* PasakaApp.swift in Sources */,
+				2E5359A82DD0C5DF00DFA931 /* Slide.swift in Sources */,
+				2E5359AA2DD0C67E00DFA931 /* MockData.swift in Sources */,
+				2E5359A92DD0C67800DFA931 /* Story.swift in Sources */,
+				2E5359AE2DD0C86F00DFA931 /* StoryListViewModel.swift in Sources */,
+				2E5359AF2DD0C87300DFA931 /* StoryPlayerViewModel.swift in Sources */,
+				2E5359AB2DD0C84000DFA931 /* UserProgressService.swift in Sources */,
 				2EE8E3672DCFAFAA000C9C40 /* AppCoordinator.swift in Sources */,
+				2E5359AD2DD0C85900DFA931 /* AudioService.swift in Sources */,
+				2E5359AC2DD0C84600DFA931 /* StoryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

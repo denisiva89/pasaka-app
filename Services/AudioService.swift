@@ -3,12 +3,13 @@ import Foundation
 import AVFoundation
 import SwiftUI
 
-class AudioService: ObservableObject {
+class AudioService: NSObject, ObservableObject {
     private var audioPlayer: AVAudioPlayer?
     @Published var isPlaying: Bool = false
     @Published var isMuted: Bool = false
     
-    init() {
+    override init() {
+        super.init() // Вызов родительского инициализатора
         setupAudioSession()
     }
     
